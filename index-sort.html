@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <script src="index.js"></script>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<style>
+    th .sort {
+        display: none;
+    }
+
+    th.asc .sort.asc {
+        display: inline;
+        color: red;
+    }
+
+    th.desc .sort.desc {
+        display: inline;
+        color: green;
+    }
+</style>
+
+<body>
+    <h4>Hello World Js!</h4>
+
+    <table id="MenuItemTable">
+        <thead>
+            <tr>
+                <th data-sort="obj_num"><span class="sort asc">asc</span><span class="sort desc">desc</span>ID</th>
+                <th data-sort="name1">Name</th>
+                <th data-sort="fam_grp_name">Family Group</th>
+                <th data-sort="maj_grp_name">Major Group</th>
+                <th data-sort="mi_class_name">Class</th>
+                <th data-sort="prices">Price</th>
+                <th data-sort="is_condiment">Condiment</th>
+                <th data-sort="status">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+
+</html>
